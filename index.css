@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #007bff;
+}
+
+.formulario{
+    display: flex;
+    padding: 77px;
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.formulario h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(2, 30, 55);
+    margin-bottom: 10px;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+label{
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(2, 30, 55)
+}
+
+input[type="button"] {
+    padding: 10px;
+    font-size: 16px; 
+    background-color: #007BFF; 
+    color: white; 
+    cursor: pointer;
+    border: none;
+    margin-left: 180px;
+}
+
+form{
+    margin-bottom: 10px;
+}
